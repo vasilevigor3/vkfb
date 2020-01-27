@@ -42,9 +42,10 @@ public class TelegramBot extends TelegramLongPollingBot {
     Vk vk = new Vk();
     EPN epn = new EPN();
 
-    public TelegramBot(DefaultBotOptions options) {
-        super(options);
-    }
+//    public TelegramBot(DefaultBotOptions options) {
+//        super(options);
+//    }
+    public TelegramBot(){};
 
     public void sendPostToTG(String cutLink, String photoLink) {
         try {
